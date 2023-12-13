@@ -1,0 +1,45 @@
+2023-11-17 18:00:02.814  INFO 8488 --- [main] c.c.A.AppointmentRemainderApplication    : Starting AppointmentRemainderApplication using Java 15.0.2 on DESKTOP-3AALRQV with PID 8488 (G:\Cognix\Code Repo\CBI Appointment Remainder\backend-AppointmentRemainder\target\classes started by LENOVO in G:\Cognix\Code Repo\CBI Appointment Remainder\backend-AppointmentRemainder)
+2023-11-17 18:00:02.819  INFO 8488 --- [main] c.c.A.AppointmentRemainderApplication    : No active profile set, falling back to default profiles: default
+2023-11-17 18:00:03.514  INFO 8488 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-17 18:00:03.531  INFO 8488 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2023-11-17 18:00:04.094  INFO 8488 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@7a0ef219' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-11-17 18:00:04.100  INFO 8488 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-11-17 18:00:04.387  INFO 8488 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-11-17 18:00:04.403  INFO 8488 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-17 18:00:04.403  INFO 8488 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2023-11-17 18:00:04.521  INFO 8488 --- [main] o.a.c.c.C.[.[localhost].[/reminder]      : Initializing Spring embedded WebApplicationContext
+2023-11-17 18:00:04.522  INFO 8488 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1645 ms
+2023-11-17 18:00:04.564  WARN 8488 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-17 18:00:04.654  INFO 8488 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-17 18:00:04.933  INFO 8488 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-17 18:00:05.010  INFO 8488 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: first]
+2023-11-17 18:00:05.065  INFO 8488 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2023-11-17 18:00:05.214  INFO 8488 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-11-17 18:00:05.461  INFO 8488 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2023-11-17 18:00:06.145  INFO 8488 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-17 18:00:06.267  INFO 8488 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'first'
+2023-11-17 18:00:06.578  INFO 8488 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2023-11-17 18:00:06.636  INFO 8488 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-17 18:00:06.967  INFO 8488 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@12478b4e, org.springframework.security.web.context.SecurityContextPersistenceFilter@43e86c0c, org.springframework.security.web.header.HeaderWriterFilter@5392aa2b, org.springframework.web.filter.CorsFilter@64921450, org.springframework.security.web.authentication.logout.LogoutFilter@498b697, com.cognicx.AppointmentRemainder.jwt.JwtAuthTokenFilter@3f1fb139, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6d4c7248, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3a2a56f6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@18918d70, org.springframework.security.web.session.SessionManagementFilter@56d6e2e1, org.springframework.security.web.access.ExceptionTranslationFilter@237d0625, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5d67bf4d]
+2023-11-17 18:00:07.262  WARN 8488 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2023-11-17 18:00:07.265  INFO 8488 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'first'
+2023-11-17 18:00:07.266  INFO 8488 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-17 18:00:07.270  INFO 8488 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-17 18:00:07.272  INFO 8488 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-11-17 18:00:07.280  INFO 8488 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-11-17 18:00:07.292 ERROR 8488 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
